@@ -1,0 +1,84 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spotify</title>
+  </head>
+  <body>
+    <!-- nav helps to add features to navigate and understand sites struycture like home search about -->
+    <nav>
+        <ul>
+            <!-- Alt is used to provide a tag to spotfiy -->
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+             <li>Home </li>
+              <li>About </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+          <h1>Best of NCS</h1>
+          <div>
+            <div class="songItem">
+              <img src="covers/10.jpg" alt="1">
+              <span class="songName"><b>Let me Love You</b></span>
+              <span class="songlistplay"><span class="timestamp"><b>05:34</b></span><i id="0" class="fas songItemplay fa-3x fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+              <img src="covers/9.jpg" alt="1">
+              <span class="songName"><b>Let me Love You</b></span>
+              <span class="songlistplay"><span class="timestamp"><b>05:34</b></span><i id="1" class="fas songItemplay fa-3x fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+              <img src="covers/8.jpg" alt="1">
+              <span class="songName"><b>Let me Love You</b></span>
+              <span class="songlistplay"><span class="timestamp"><b>05:34</b></span><i id="2" class="fas songItemplay fa-3x fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+              <img src="covers/7.jpg" alt="1">
+              <span class="songName"><b>Let me Love You</b></span>
+              <span class="songlistplay"><span class="timestamp"><b>05:34</b></span><i id="3" class="fas songItemplay fa-3x fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+              <img src="covers/6.jpg" alt="1">
+              <span class="songName"><b>Let me Love You</b></span>
+              <span class="songlistplay"><span class="timestamp"><b>05:34</b></span><i id="4" class="fas songItemplay fa-3x fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+              <img src="covers/5.jpg" alt="1">
+              <span class="songName"><b>Let me Love You</b></span>
+              <span class="songlistplay"><span class="timestamp"><b>05:34</b></span><i id="5" class="fas songItemplay fa-3x fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+              <img src="covers/4.jpg" alt="1">
+              <span class="songName"><b>Let me Love You</b></span>
+              <span class="songlistplay"><span class="timestamp"><b>05:34</b></span><i id="6" class="fas songItemplay fa-3x fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+              <img src="covers/3.jpg" alt="1">
+              <span class="songName"><b>Let me Love You</b></span>
+              <span class="songlistplay"><span class="timestamp"><b>05:34</b></span><i id="7" class="fas songItemplay fa-3x fa-play-circle"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="songBanner">
+        </div>
+    </div>
+        <div class="bottom">
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+            <div class="icons">
+                <!-- Fontawesomeicons -->
+                 <!-- The code for iconis copied from fobtawesome and fa3x is used to extend there size -->
+                <i class="fas fa-3x fa-fast-backward" id="back"></i>
+                <i class="fas fa-3x fa-play-circle " id="masterplay"></i>
+                <i class="fas fa-3x fa-fast-forward" id="forward"></i>
+            </div>
+          <div class="songinfo">
+          <img src="playing.gif" width="42px" id="gif">
+          </div>
+        </div>
+    <script src="script.js"> </script>
+    <script src="https://kit.fontawesome.com/3dfe354d9b.js" crossorigin="anonymous"></script>
+  </body>
+  </html>
